@@ -95,23 +95,23 @@ def main():  # main bot's function
                 elif event.obj.text == '!список команд':
                     ls.messages.send(user_id=event.obj.from_id, random_id=get_random_id(), message='Список команд для тебя, сенпай! &#128540;\n 1. !привет - я с вами поздоровуюсь\n2. !хентай - классический хентай\n3. !лоли - миленькие лоли\n4. !милф - хентай с милфами\n5. !фут - фут фетиш\n6. !фурри - пушистые фурри\n7. !неко - милые кошкодевочки\n8. !тенткл - хентай с щупальцами\n9. !фута - футанари\n 10. !трап - хентай с трапами')
                 elif event.obj.text == '!хентай':
-                    photo_ls(event.obj.from_id, 'a{}.jpg'.format(randint(1,204)), '1bxxme1LEziESois_OFJ-jnlzuJo_SNOi', 'ммм &#129316;')
+                    photo_ls(event.obj.from_id, 'a{}.jpg'.format(randint(1,204)), '1bxxjnlzuJo_SNOi', 'ммм &#129316;')
                 elif event.obj.text == '!лоли':
-                    photo_ls(event.obj.from_id, 'b{}.jpg'.format(randint(1,19)), '1cyaWmV4PCdPRh7k_66mo1K1IMlS1Ijlx', 'она уже взрослая, нравится тебе это или нет! &#128544;')
+                    photo_ls(event.obj.from_id, 'b{}.jpg'.format(randint(1,19)), '1cyaWmV1K1IMlS1Ijlx', 'она уже взрослая, нравится тебе это или нет! &#128544;')
                 elif event.obj.text == '!милф':
-                    photo_ls(event.obj.from_id, 'c{}.jpg'.format(randint(1,2)), '1WWkiXjX54_LNnoCO-6bjUxUdzug2erW-', 'мне ещё долго до неё расти... &#128553;')
+                    photo_ls(event.obj.from_id, 'c{}.jpg'.format(randint(1,2)), '1WWkiXjXzug2erW-', 'мне ещё долго до неё расти... &#128553;')
                 elif event.obj.text == '!фут':
-                    photo_ls(event.obj.from_id, 'd{}.jpg'.format(randint(1,3)), '1g1zz6VsledcbhuMB2AvtlDxWMrJBQC77', 'ножки &#128525;')
+                    photo_ls(event.obj.from_id, 'd{}.jpg'.format(randint(1,3)), '1g1zz6VslrJBQC77', 'ножки &#128525;')
                 elif event.obj.text == '!фурри':
-                    photo_ls(event.obj.from_id, 'e{}.jpg'.format(randint(1,2)), '17Ur0JWj8lHDtd-0O0wVS68OYizTKG7h_', 'люблю зверушек &#128535;')
+                    photo_ls(event.obj.from_id, 'e{}.jpg'.format(randint(1,2)), '17Ur0JOYizTKG7h_', 'люблю зверушек &#128535;')
                 elif event.obj.text == '!неко':
-                    photo_ls(event.obj.from_id, 'f{}.jpg'.format(randint(1,2)), '1kquzNKSy0DyTcR52JvgvEa-wXWvaTdkq', 'котики &#128522;')
+                    photo_ls(event.obj.from_id, 'f{}.jpg'.format(randint(1,2)), '1kquzwXWvaTdkq', 'котики &#128522;')
                 elif event.obj.text == '!тенткл':
-                    photo_ls(event.obj.from_id, 'g{}.jpg'.format(randint(1,3)), '1mwF7c0roU8Eo8DTN8l-TdWVc-iDLxxJy', 'они лезут отовсюду! &#128534;')
+                    photo_ls(event.obj.from_id, 'g{}.jpg'.format(randint(1,3)), '1mwF7c0c-iDLxxJy', 'они лезут отовсюду! &#128534;')
                 elif event.obj.text == '!фута':
-                    photo_ls(event.obj.from_id, 'h{}.jpg'.format(randint(1,2)), '1uQgWGsyI8iebenjUb1PYXoFq-k6c3N8p', 'они большие! &#128534;')
+                    photo_ls(event.obj.from_id, 'h{}.jpg'.format(randint(1,2)), '1uQg-k6c3N8p', 'они большие! &#128534;')
                 elif event.obj.text == '!трап':
-                    photo_ls(event.obj.from_id, 't{}.jpg'.format(randint(1,75)), '1rZreiRJc2NamG3zS28XeNPt7vlXtfcOR', '&#9786;')  
+                    photo_ls(event.obj.from_id, 't{}.jpg'.format(randint(1,75)), '1rZNPt7vlXtfcOR', '&#9786;')  
 #  others commands with random photo attachment using randint with interval = quantity of images in google drive folder
             elif event.from_chat:  # the same, but if the messages from chat
                 if event.obj.text == '!привет':
@@ -126,23 +126,23 @@ def main():  # main bot's function
                 elif event.obj.text == '!список команд':
                     ls.messages.send(chat_id=event.chat_id, random_id=get_random_id(), message='Список команд для тебя, сенпай! &#128540;\n 1. !привет - я с вами поздоровуюсь\n2. !хентай - классический хентай\n3. !лоли - миленькие лоли\n4. !милф - хентай с милфами\n5. !фут - фут фетиш\n6. !фурри - пушистые фурри\n7. !неко - милые кошкодевочки\n8. !тенткл - хентай с щупальцами\n9. !фута - футанари\n 10. !трап - хентай с трапами')
                 elif event.obj.text == '!хентай':
-                    photo(event.chat_id, 'a{}.jpg'.format(randint(1,204)), '1bxxme1LEziESois_OFJ-jnlzuJo_SNOi', 'ммм &#129316;')
+                    photo(event.chat_id, 'a{}.jpg'.format(randint(1,204)), '1bxxzuJo_SNOi', 'ммм &#129316;')
                 elif event.obj.text == '!лоли':
-                    photo(event.chat_id, 'b{}.jpg'.format(randint(1,19)), '1cyaWmV4PCdPRh7k_66mo1K1IMlS1Ijlx', 'она уже взрослая, нравится тебе это или нет! &#128544;')
+                    photo(event.chat_id, 'b{}.jpg'.format(randint(1,19)), '1cyaWlS1Ijlx', 'она уже взрослая, нравится тебе это или нет! &#128544;')
                 elif event.obj.text == '!милф':
-                    photo(event.chat_id, 'c{}.jpg'.format(randint(1,2)), '1WWkiXjX54_LNnoCO-6bjUxUdzug2erW-', 'мне ещё долго до неё расти... &#128553;')
+                    photo(event.chat_id, 'c{}.jpg'.format(randint(1,2)), '1WWkidzug2erW-', 'мне ещё долго до неё расти... &#128553;')
                 elif event.obj.text == '!фут':
-                    photo(event.chat_id, 'd{}.jpg'.format(randint(1,3)), '1g1zz6VsledcbhuMB2AvtlDxWMrJBQC77', 'ножки &#128525;')
+                    photo(event.chat_id, 'd{}.jpg'.format(randint(1,3)), '1g1zrJBQC77', 'ножки &#128525;')
                 elif event.obj.text == '!фурри':
-                    photo(event.chat_id, 'e{}.jpg'.format(randint(3,4)), '17Ur0JWj8lHDtd-0O0wVS68OYizTKG7h_', 'люблю зверушек &#128535;')
+                    photo(event.chat_id, 'e{}.jpg'.format(randint(3,4)), '17Ur0YizTKG7h_', 'люблю зверушек &#128535;')
                 elif event.obj.text == '!неко':
-                    photo(event.chat_id, 'f{}.jpg'.format(randint(1,2)), '1kquzNKSy0DyTcR52JvgvEa-wXWvaTdkq', 'котики &#128522;')
+                    photo(event.chat_id, 'f{}.jpg'.format(randint(1,2)), '1kquzNKSXWvaTdkq', 'котики &#128522;')
                 elif event.obj.text == '!тенткл':
-                    photo(event.chat_id, 'g{}.jpg'.format(randint(1,3)), '1mwF7c0roU8Eo8DTN8l-TdWVc-iDLxxJy', 'они лезут отовсюду! &#128534;')
+                    photo(event.chat_id, 'g{}.jpg'.format(randint(1,3)), '1mwF7c0rWVc-iDLxxJy', 'они лезут отовсюду! &#128534;')
                 elif event.obj.text == '!фута':
-                    photo(event.chat_id, 'h{}.jpg'.format(randint(1,2)), '1uQgWGsyI8iebenjUb1PYXoFq-k6c3N8p', 'они большие! &#128534;')
+                    photo(event.chat_id, 'h{}.jpg'.format(randint(1,2)), '1uQgWGsyIk6c3N8p', 'они большие! &#128534;')
                 elif event.obj.text == '!трап':
-                    photo(event.chat_id, 't{}.jpg'.format(randint(1,75)), '1rZreiRJc2NamG3zS28XeNPt7vlXtfcOR', '&#9786;')
+                    photo(event.chat_id, 't{}.jpg'.format(randint(1,75)), '1rZrt7vlXtfcOR', '&#9786;')
 if __name__ == '__main__':  # running bot's main function
     while True: 
         try:
