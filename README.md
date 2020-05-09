@@ -8,7 +8,7 @@ VK bot to send some 18+ pictures :)
 
 > там вы сможете найти необходимую информацию
 
-Все изображения, отправленные ботом хранятся на гугл диске, сам же бот находится на хосте Pythonanywere
+Все изображения, отправленные ботом хранятся на гугл диске, сам же бот находится на хосте Pythonanywere.
 Использованные модули: vk_api, vk, GoogleDrive API, PyDrive
 
 ## EN
@@ -17,5 +17,5 @@ VK bot to send some 18+ pictures :)
 
 > there you can find the necessary information
 
-All images sent by the bot are stored on Google Drive, the bot itself is located on the Pythonanywere host
+All images sent by the bot are stored on Google Drive, the bot itself is located on the Pythonanywere host.
 Used modules: vk_api, vk, GoogleDrive API, PyDrive
