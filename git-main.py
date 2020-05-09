@@ -115,11 +115,11 @@ def main():  # main bot's function
 #  others commands with random photo attachment using randint with interval = quantity of images in google drive folder
             elif event.from_chat:  # the same, but if the messages from chat
                 if event.obj.text == '!привет':
-                    if event.obj.from_id == 123:
+                    if event.obj.from_id == 111:
                         ls.messages.send(chat_id=event.chat_id, random_id=get_random_id(), message='Привет, создатель! &#128525; &#128525; &#128525;')
-                    elif event.obj.from_id == 123:
+                    elif event.obj.from_id == 112:
                         ls.messages.send(chat_id=event.chat_id, random_id=get_random_id(), message='Приветик, братек &#128540;')
-                    elif event.obj.from_id == 123:
+                    elif event.obj.from_id == 113:
                         ls.messages.send(chat_id=event.chat_id, random_id=get_random_id(), message='Признайся, ты трап?) &#128540;')
                     else:
                         ls.messages.send(chat_id=event.chat_id, random_id=get_random_id(), message='Привет, сенпай! &#128524;')
