@@ -49,32 +49,32 @@ def main():  # main bot's function
         id = object["peer_id"]  # id where to send
         body = object["text"]  # text of the message
         if body.lower() == "!привет":  # commands
-            if object["from_id"] == 345145438:  # checking id of sender
+            if object["from_id"] == 111:  # checking id of sender (all ids not real!!)
                vk.method("messages.send", {"peer_id": id, "message": "Привет, создатель! &#128525; &#128525; &#128525;", "random_id": random.randint(1, 2147483647)})
-            elif object["from_id"] == 398033132:
+            elif object["from_id"] == 112:
                 vk.method("messages.send", {"peer_id": id, "message": "Приветик, братек &#128540;", "random_id": random.randint(1, 2147483647)})
-            elif object["from_id"] == 344782276:
+            elif object["from_id"] == 113:
                 vk.method("messages.send", {"peer_id": id, "message": "Привет... Как мне к тебе обращаться? Тян или кун? Я немного запуталась..", "random_id": random.randint(1, 2147483647)})
             else:
                 vk.method("messages.send", {"peer_id": id, "message": "Привет, сенпай! &#128524;", "random_id": random.randint(1, 2147483647)})
         elif body.lower() == '!список команд':
             vk.method("messages.send", {"peer_id": id, "message": "Список команд для тебя, сенпай! &#128540;\n 1. !привет - моё приветствие\n2. !хентай - классический хентай\n3. !лоли - миленькие лоли\n4. !милф - хентай с милфами\n5. !фут - фут фетиш\n6. !фурри - пушистые фурри\n7. !неко - милые кошкодевочки\n8. !тенткл - хентай с щупальцами\n9. !фута - футанари\n 10. !трап - хентай с трапами", "random_id": random.randint(1, 2147483647)})
         elif body.lower() == '!хентай':
-            photo(object["peer_id"], 'a{}.jpg'.format(randint(1,204)), '1bxxme1LEziESois_OFJ-jnlzuJo_SNOi', 'ммм &#129316;')
+            photo(object["peer_id"], 'a{}.jpg'.format(randint(1,204)), '1bxxme1LEziESo', 'ммм &#129316;')
         elif body.lower() == '!лоли':
-            photo(object["peer_id"], 'b{}.jpg'.format(randint(1,19)), '1cyaWmV4PCdPRh7k_66mo1K1IMlS1Ijlx', 'она уже взрослая, нравится тебе это или нет! &#128544;')
+            photo(object["peer_id"], 'b{}.jpg'.format(randint(1,19)), '1cyaWmV4PCdIMlS1Ijlx', 'она уже взрослая, нравится тебе это или нет! &#128544;')
         elif body.lower() == '!милф':
-            photo(object["peer_id"], 'c{}.jpg'.format(randint(1,3)), '1WWkiXjX54_LNnoCO-6bjUxUdzug2erW-', 'мне ещё долго до неё расти... &#128553;')
+            photo(object["peer_id"], 'c{}.jpg'.format(randint(1,3)), '1WWkiXjbjUxUdzug2erW-', 'мне ещё долго до неё расти... &#128553;')
         elif body.lower() == '!фут':
-            photo(object["peer_id"], 'd{}.jpg'.format(randint(1,3)), '1g1zz6VsledcbhuMB2AvtlDxWMrJBQC77', 'ножки &#128525;')
+            photo(object["peer_id"], 'd{}.jpg'.format(randint(1,3)), '1g1uMB2AvtlDxWMrJBQC77', 'ножки &#128525;')
         elif body.lower() == '!фурри':
-            photo(object["peer_id"], 'e{}.jpg'.format(randint(1,2)), '17Ur0JWj8lHDtd-0O0wVS68OYizTKG7h_', 'люблю зверушек &#128535;')
+            photo(object["peer_id"], 'e{}.jpg'.format(randint(1,2)), '17Ur0J68OYizTKG7h_', 'люблю зверушек &#128535;')
         elif body.lower() == '!неко':
-            photo(object["peer_id"], 'f{}.jpg'.format(randint(1,6)), '1kquzNKSy0DyTcR52JvgvEa-wXWvaTdkq', 'котики &#128522;')
+            photo(object["peer_id"], 'f{}.jpg'.format(randint(1,6)), '1kqvEa-wXWvaTdkq', 'котики &#128522;')
         elif body.lower() == '!тенткл':
-            photo(object["peer_id"], 'g{}.jpg'.format(randint(1,10)), '1mwF7c0roU8Eo8DTN8l-TdWVc-iDLxxJy', 'они лезут отовсюду! &#128534;')
+            photo(object["peer_id"], 'g{}.jpg'.format(randint(1,10)), '1mwF7cVc-iDLxxJy', 'они лезут отовсюду! &#128534;')
         elif body.lower() == '!фута':
-            photo(object["peer_id"], 'h{}.jpg'.format(randint(1,2)), '1uQgWGsyI8iebenjUb1PYXoFq-k6c3N8p', 'они большие! &#128534;')
+            photo(object["peer_id"], 'h{}.jpg'.format(randint(1,2)), '1uQgWGXoFq-k6c3N8p', 'они большие! &#128534;')
         elif body.lower() == '!трап':
-            photo(object["peer_id"], 't{}.jpg'.format(randint(1,75)), '1rZreiRJc2NamG3zS28XeNPt7vlXtfcOR', '&#9786;')
+            photo(object["peer_id"], 't{}.jpg'.format(randint(1,75)), '1rZrei7vlXtfcOR', '&#9786;')
     return "ok"  # after every action server must return 'ok' string
